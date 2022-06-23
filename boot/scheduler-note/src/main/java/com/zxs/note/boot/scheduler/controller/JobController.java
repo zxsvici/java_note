@@ -20,6 +20,7 @@ public class JobController {
 
         String jobName = "job";
         String jobGroup = "group";
+        System.out.println("aaa");
 
         Class<? extends Job> jobClass = AsyncJobFactory.class;
         //构建job信息
