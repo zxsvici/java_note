@@ -10,6 +10,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>boot</module>
+        <module>utils</module>
+        <module>hutool-study</module>
+        <module>apache-commons</module>
     </modules>
 
     <properties>
@@ -21,6 +24,7 @@
         <mysql.version>8.0.20</mysql.version>
         <fastjson.version>1.2.79</fastjson.version>
         <mybatis_plus.version>3.4.1</mybatis_plus.version>
+        <hutool.version>5.7.21</hutool.version>
     </properties>
 
     <parent>
